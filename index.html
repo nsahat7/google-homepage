@@ -2,24 +2,46 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>This is not Google</title>
+        <title>Google</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
-        <div class="link-wrapper">
-            <div class="left">
-                <div><a href="#">About</a></div>
-                <div><a href="#">Store</a></div>    
+    <body>           
+        <div class="navigation">
+            <div class="left-section">
+                <a href="#">About</a>
+                <a href="#">Store</a>   
             </div>
-            <div class="right">
-                <div><a href="#">Gmail</a></div>
-                <div><a href="#">Images</a></div>
-                <div><a href="#">#</a></div>
-                <div><a href="#">Sign In</a></div>      
+            <div class="right-section">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#">
+                    <img src="images/apps.png" alt="Google Apps">
+                <a class="signin-button" href="#">Sign In</a>   
             </div>
         </div>
         <div class="main">
-            <img src="images/googlelogo.png" class="rounded" alt="Google">
+            <div class="logo"><img src="images/googlelogo.png" class="rounded" alt="Google"></div>
+            <div class="search-bar">
+                <img class="icon" src="images/search.png" alt="Search">
+                <input class="search" type="text">
+                <button><img class="icon" src="images/microphone.png" alt="Voice Search"></button>         
+            </div>
+            <div class="search-buttons">
+                <button class="search-button">Google Search</button>
+                <button class="search-button">I'm Feeling Lucky</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left-footer">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div class="right-footer">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a> 
         </div>        
     </body>
 </html>

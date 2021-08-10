@@ -6,23 +6,123 @@ a {
     text-decoration: none !important;
 }
 
+button, input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.navigation {
+    margin-top: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    margin-left: 10px;
+    gap: 15px;
+}
+
+.right-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    gap: 15px;
+    align-items: center;
+}
+
+.signin-button {
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    line-height: 28px;
+    padding: 0 12px;
+}
 .main {
     text-align: center;
     display: block;
     margin-top: 100px;
 }
-.link-wrapper {
-    margin-top: 20px;
-    font-size: 13px;
-    display: flex;
-}
-.left {
-    display: flex;
-    gap: 10px;
+
+.logo {
+    margin-bottom: 26px;
 }
 
-.right {
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 45px;
+    width: 580px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 25px;
+    height: 25px;
+}
+
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 14px;
+    gap: 13px;
+}
+
+.search-button {
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    font-size: 14px;
+    margin-top: 190px;
+    background: #f2f2f2;
+    line-height: 40px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+
+.left-footer {
+    display: flex;
+    margin-left: 25px;
+    gap: 25px;
+}
+
+.right-footer {
     display: flex;
     margin-left: auto;
-    gap: 10px;
+    margin-right: 25px;
+    gap: 25px;
 }
